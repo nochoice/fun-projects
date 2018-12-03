@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8ce1b45-75a7-4953-8ddd-8f045ed164a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent/2018/01.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advent/2018/data/01-1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euler/15-latice-paths.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/euler/19-sundays.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/files/read-file.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/math/combinatorics/binomial-coeficient.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/math/helpers/factorial.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils/array/split-line.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/utils/fill-array.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advent/2018/02.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advent/2018/data/02-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advent/2018/01.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/advent/2018/01.mjs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,15 +18,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="01.mjs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/advent/2018/01.mjs">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="02-1" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advent/2018/data/02-1">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="630">
+              <caret line="213" column="26" lean-forward="true" selection-end-line="249" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -57,6 +48,8 @@
         <option value="$PROJECT_DIR$/lib/files/read-file.mjs" />
         <option value="$PROJECT_DIR$/advent/2018/data/01-1" />
         <option value="$PROJECT_DIR$/advent/2018/01.mjs" />
+        <option value="$PROJECT_DIR$/advent/2018/02.mjs" />
+        <option value="$PROJECT_DIR$/advent/2018/data/02-1" />
       </list>
     </option>
   </component>
@@ -152,34 +145,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543605049259</updated>
-      <workItem from="1543605050864" duration="10433000" />
+      <workItem from="1543605050864" duration="13118000" />
+      <workItem from="1543820731396" duration="604000" />
+      <workItem from="1543841580453" duration="1406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10433000" />
+    <option name="totallyTimeSpent" value="15128000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2062" height="1136" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24987654" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32960325" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.328807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +184,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/advent/2018/02.mjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent/2018/02.mjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/math/combinatorics/binomial-coeficient.mjs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -241,20 +253,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advent/2018/data/01-1">
+    <entry file="file://$PROJECT_DIR$/advent/2018/01.mjs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="1033" column="3" lean-forward="true" selection-start-line="1033" selection-start-column="3" selection-end-line="1033" selection-end-column="3" />
+        <state relative-caret-position="36">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advent/2018/01.mjs">
+    <entry file="file://$PROJECT_DIR$/advent/2018/data/01-1">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="155">
+          <caret line="1017" column="3" lean-forward="true" selection-start-line="1017" selection-start-column="3" selection-end-line="1017" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent/2018/02.mjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
           <folding>
-            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#0#75#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent/2018/data/02-1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="213" column="26" lean-forward="true" selection-end-line="249" selection-end-column="26" />
         </state>
       </provider>
     </entry>

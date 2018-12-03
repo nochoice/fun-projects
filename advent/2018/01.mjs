@@ -11,7 +11,6 @@ console.log(`Result 1: ${getFrequency(data, 0)}`);
 
 // ---------------------------------------------------------------------------------------------------------------------
 // result 2
-
 export const frequencyRepeat = (data, frequency = 0) => {
     let cache = new Map();
     let itt = 0;
