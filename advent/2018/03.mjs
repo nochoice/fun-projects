@@ -26,17 +26,17 @@ const addToMemory = (memory, claim) => {
     return memory;
 };
 
-data.forEach((line) => {
-    const claim = createClaim(line);
-    claims.push(claim);
-    addToMemory(memory, claim);
-});
-
 const hasCollission = (claim, memory) => {
     const n = claim.positions.reduce((acc, position) => memory[position].length === 1 && acc, true);
 
     return !n;
 };
+
+data.forEach((line) => {
+    const claim = createClaim(line);
+    claims.push(claim);
+    addToMemory(memory, claim);
+});
 
 claims.forEach(claim => {
     const p = hasCollission(claim, memory);
