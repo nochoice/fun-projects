@@ -1,4 +1,4 @@
-import {splitLine, splitLineToNum} from '../../lib/utils/array/split-line';
+import {splitLine} from '../../lib/utils/array/split-line';
 import {readFile} from '../../lib/files/read-file';
 
 const data = splitLine(readFile(`advent/2018/data/02-1`), '\r\n');
@@ -33,7 +33,7 @@ const checkSum = (data) => {
     return agr[0] * agr[1];
 };
 
-// console.log(data);
+// ==========================================================================================
 
 const getSimiliar = (data) => {
     const result = [];
@@ -79,11 +79,7 @@ const removeNotSame = (arr) => {
     return result;
 }
 
-
 console.log(removeNotSame(getSimiliar(data)));
-
-// console.log(compareSimiliar('11111', '11111'));
-
 
 
 
