@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8ce1b45-75a7-4953-8ddd-8f045ed164a6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/advent/2018/03.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/advent/2018/03.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/advent/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,14 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="03.mjs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/advent/2018/03.mjs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advent/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -58,6 +59,7 @@
         <option value="$PROJECT_DIR$/advent/2018/02.mjs" />
         <option value="$PROJECT_DIR$/advent/2018/data/03-1" />
         <option value="$PROJECT_DIR$/advent/2018/03.mjs" />
+        <option value="$PROJECT_DIR$/advent/README.md" />
       </list>
     </option>
   </component>
@@ -93,19 +95,6 @@
               <item name="fun-projects" type="b2602c69:ProjectViewProjectNode" />
               <item name="fun-projects" type="462c0819:PsiDirectoryNode" />
               <item name="advent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fun-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fun-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="advent" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fun-projects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fun-projects" type="462c0819:PsiDirectoryNode" />
-              <item name="advent" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fun-projects" type="b2602c69:ProjectViewProjectNode" />
@@ -155,25 +144,25 @@
       <updated>1543605049259</updated>
       <workItem from="1543605050864" duration="13118000" />
       <workItem from="1543820731396" duration="604000" />
-      <workItem from="1543841580453" duration="11116000" />
+      <workItem from="1543841580453" duration="11287000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24838000" />
+    <option name="totallyTimeSpent" value="25009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.328807" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.328807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -301,11 +290,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advent/2018/03.mjs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        <state relative-caret-position="714">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advent/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" column="51" lean-forward="true" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
