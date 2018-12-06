@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8ce1b45-75a7-4953-8ddd-8f045ed164a6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/advent/2018/05.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/advent/2018/data/04-1" beforeDir="false" afterPath="$PROJECT_DIR$/advent/2018/data/04-1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advent/2018/05.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/advent/2018/05.mjs" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="05.mjs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/advent/2018/05.mjs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+            <state relative-caret-position="290">
+              <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -154,12 +152,12 @@
       <workItem from="1543820731396" duration="604000" />
       <workItem from="1543841580453" duration="13010000" />
       <workItem from="1543996404946" duration="8000" />
-      <workItem from="1544032314378" duration="14404000" />
+      <workItem from="1544032314378" duration="16023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41144000" />
+    <option name="totallyTimeSpent" value="42763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
@@ -348,8 +346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/advent/2018/05.mjs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        <state relative-caret-position="290">
+          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
         </state>
       </provider>
     </entry>

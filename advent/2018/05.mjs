@@ -5,7 +5,21 @@ const isInvert = (ch1, ch2) => {
     const ch2_code =  ch2.charCodeAt(0);
 
     return Math.abs(ch2_code - ch1_code) === 32;
+};
+
+const removeUnit = (polymer, unit) => {
+    const r = new RegExp(`${unit}`, 'gi');
+    return polymer.replace(r, '');
 }
+
+const genCharArray = (charA, charZ) => {
+    let a = [], i = charA.charCodeAt(0), j = charZ.charCodeAt(0);
+    for (; i <= j; ++i) {
+        a.push(String.fromCharCode(i));
+    }
+    return a;
+}
+genCharArray('a', 'z'); // ["a", ..., "z"]
 
 const react = (str) => {
     const stack = [];
@@ -27,5 +41,22 @@ const react = (str) => {
     return stack;
 };
 
-console.log(react(input).length);
+// console.log(react(input).length);
+// console.log('AaaBbAC'.replace(/a/gi, ''));
+// console.log(removeUnit('AaaBbAC', 'a'));
+
+let max = Infinity;
+
+genCharArray('a', 'z').forEach((char) => {
+    console.log(char);
+    const pol = removeUnit(input, char);
+
+    const l = react(input).length;
+
+    console.log(l);
+    if (l < max) max = l;
+})
+
+
+console.log(max);
 
