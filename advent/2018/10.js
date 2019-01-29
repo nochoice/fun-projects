@@ -442,15 +442,9 @@ show = (data) => {
         dataActual = dataNext;
     }
 
-    console.log(count);
+    console.log(count-1);
     return fillDraw(draw((movePrev(dataActual)), 1.1));
   
 };
 
-
 console.log(show(parse(input)));
-
-
-
-
-
