@@ -1,0 +1,14 @@
+{
+  "name": "nochoice-codewars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "transposing-tabs.js",
+  "scripts": {
+    "test": "mocha -w **/*spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
