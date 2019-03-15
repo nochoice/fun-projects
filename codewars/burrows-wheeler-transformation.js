@@ -1,8 +1,8 @@
 const input = 'Mellow Yellow';
 
 const encode = (data) => {
-    if (!data) return '';
-    
+    if (!data) return ['', 0];
+
     const arr = data.split('');
 
     const matrix = arr.map((char, i) =>  cycle(arr, i).join('')).sort();
