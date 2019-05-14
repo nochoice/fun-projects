@@ -28,7 +28,7 @@ const transitions = input
                     .map(item => item.match(regex))
                     .map(item => ({in: item[1], symbol: item[2], out: item[3]}))
 
-const traverseTCPStates = (eventList) => {
+const traverseTCPStates1 = (eventList) => {
     let state = "CLOSED";  
 
     eventList.forEach(symbol => {
@@ -56,6 +56,14 @@ const forReduce = input.split('\n')
         acc[item.in][item.symbol] = item.out;
 
         return acc; 
-    }, {})
+    }, {});
 
-console.log(forReduce);
+
+const traverseTCPStates = (eventList) => {
+    let state = "CLOSED";  
+
+    return eventList.reduce((state, input) => (forReduce[state] && forReduce[state][input]) || "ERROR" , state); 
+}
+
+console.log(traverseTCPStates(eventList));
+
