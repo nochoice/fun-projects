@@ -46,7 +46,16 @@ const createTransitionFunction = (transitions) =>
 
 const transitionFunc = createTransitionFunction(transitions);
 
-// console.log(transitionFunc('CLOSED', 'APP_ACTIVE_OPEN'));
+// console.log(traverseTCPStates(eventList))
 
+const forReduce = input.split('\n')
+    .map(item => item.match(regex))
+    .map(item => ({in: item[1], symbol: item[2], out: item[3]}))
+    .reduce((acc, item) => {
+        acc[item.in] = acc[item.in] || {};
+        acc[item.in][item.symbol] = item.out;
 
-console.log(traverseTCPStates(eventList))
+        return acc; 
+    }, {})
+
+console.log(forReduce);
