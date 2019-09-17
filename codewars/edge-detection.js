@@ -1,4 +1,4 @@
-const rle = '7 15 4 100 15 25 2 175 2 25 5 175 2 25 5';
+const rle = '7 15 10000 100 15 25 2 175 2 25 5 175 2 25 5';
 
 const decompress = (rle) => {
     const width = getWidth(rle);
