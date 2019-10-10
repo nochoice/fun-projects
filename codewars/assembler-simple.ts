@@ -4,15 +4,15 @@ const memory = {};
 const intructions = {
     mov: (memory, register, value) => {
         memory[register] = (memory[value]) ? memory[value] : +value;
-        return memory;
+        //return memory;
     },
     inc: (memory, register) => {
         memory[register]++;
-        return memory;
+        //return memory;
     },
     dec: (memory, register) =>{
         memory[register]--;
-        return memory;
+        //return memory;
     },
     jnz: (memory, register, step) => {
         const s = (memory[step]) ? memory[step] : +step;
@@ -20,19 +20,19 @@ const intructions = {
     }
 }
 
-const simple_assembler = (instructions) => {
+const simple_assembler = (inst) => {
     let i = 0;
-    const end = instructions.length;
+    const end = inst.length;
 
-    instructions = instructions.map(ins => ins.split(' '));
+    inst = inst.map(ins => ins.split(' '));
 
     do {
-        const instruction = instructions[i];
+        const instruction = inst[i];
         const result = intructions[instruction[0]](memory, instruction[1], instruction[2]);
 
         i = (instruction[0] === 'jnz') ? (i + result) : (i + 1);
         // console.log(i)
-        console.log(result)
+        console.log(result, i)
         
     } while(end > i)
     
