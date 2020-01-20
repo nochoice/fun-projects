@@ -21,5 +21,5 @@ const sumOfNumbers = (number, power) => {
 exports.powerTwos = powerTwos;
 exports.sumOfNumbers = sumOfNumbers;
 
-console.log(sumOfNumbers(2, 1000));
+// console.log(sumOfNumbers(2, 1000));
 

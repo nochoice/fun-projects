@@ -10,7 +10,7 @@ describe('Multiplication of strings', function() {
     assert.equal(app.powerTwos('2', '11'), '2048');
   })
 
-  it.only('it should return sum of numbers', function() {
+  it('it should return sum of numbers', function() {
     assert.equal(app.sumOfNumbers('2', '15'), '26');
     // assert.equal(app.sumOfNumbers('2', '1000'), '26');
   })
