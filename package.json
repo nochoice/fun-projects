@@ -1,0 +1,25 @@
+{
+  "name": "fun-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test-euler": "mocha -w ./euler/**/*spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nochoice/fun-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nochoice/fun-projects/issues"
+  },
+  "homepage": "https://github.com/nochoice/fun-projects#readme",
+  "devDependencies": {
+    "mocha": "^7.0.0"
+  }
+}
