@@ -2,10 +2,23 @@ const assert = require('assert');
 const app = require('../54-poker-hands');
 
 describe('Poker hands', function() {
-  it.only('it should check if hand is a Royal Flush', function() {
+
+  it.only('it should Win player one', function() {
+    assert.equal(app.checkGame(['3D','6D','7D','TD','QD'], ['2D','9C','AS','AH','AC']), 'p1');
+    // assert.equal(app.royalFlush(['JC','TC','QC','AC','KC']), true);
+    // assert.equal(app.royalFlush(['TC','JC','QC','AC','KH']), false);
+  });
+
+  it('it should check if hand is a Royal Flush', function() {
     assert.equal(app.royalFlush(['TC','JC','QC','AC','KC']), true);
     assert.equal(app.royalFlush(['JC','TC','QC','AC','KC']), true);
     assert.equal(app.royalFlush(['TC','JC','QC','AC','KH']), false);
+  });
+
+  it('it should check if hand is a Height card', function() {
+    assert.equal(app.highCard(['TC','9C','QC','AC','KC']), true);
+    assert.equal(app.highCard(['2C','4C','3C','5C','6C']), true);
+    assert.equal(app.highCard(['TC','9C','9C','AC','KC']), false);
   });
 
   it('it should check if hand is a Straight', function() {
@@ -64,6 +77,7 @@ describe('Poker hands', function() {
     assert.equal(app.fullHouse(['AC','AC','KC','AC','KC']), true);
     assert.equal(app.fullHouse(['TC','5C','AC','4C','KC']), false);
     assert.equal(app.fullHouse(['TC','5C','TC','TC','KC']), false);
+    assert.equal(app.fullHouse(['3C','3D','3S','9S','9D']), true);
   });
 
   it('it should sort the cards on hand', function() {
@@ -72,6 +86,6 @@ describe('Poker hands', function() {
     assert.deepEqual(app.sortHand(['QC','JC','TC','AC','KC']), ['TC','JC','QC','KC','AC']);
     assert.deepEqual(app.sortHand(['QC','JC','TC','AC','AH']), ['TC','JC','QC','AC','AH']);
     assert.deepEqual(app.sortHand(['AS','AD','TC','AH','AC']), ['TC','AC','AD','AH', 'AS']);
-  })
+  });
 });
 

@@ -84,4 +84,4 @@ for (let i = 1; i<1000000; i++) {
 // }
 
 
-console.log(perm.join(''));
+// console.log(perm.join(''));
