@@ -2,7 +2,7 @@ const assert = require('assert');
 const app = require('../24-lexicographic-permutation');
 
 describe('Lexicographic permutations', function() {
-  it.only('it should return next permutation in order', function() {
+  it('it should return next permutation in order', function() {
     assert.deepEqual(app.permutationNext([0,1,2,3]), [0,1,3,2]);
     assert.deepEqual(app.permutationNext([0,1,2,3,4]), [0,1,2,4,3]);
     assert.deepEqual(app.permutationNext([5,1,7,6,3,9,8,4,2]), [5,1,7,6,4,2,3,8,9]);
