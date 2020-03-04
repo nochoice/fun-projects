@@ -3,8 +3,11 @@ const app = require('../54-poker-hands');
 
 describe('Poker hands', function() {
 
-  it.only('it should Win player one', function() {
+  it('it should Win player one', function() {
     assert.equal(app.checkGame(['3D','6D','7D','TD','QD'], ['2D','9C','AS','AH','AC']), 'p1');
+    assert.equal(app.checkGame(['2D','9C','AS','AH','AC'], ['3D','6D','7D','TD','QD']), 'p2');
+    assert.equal(app.checkGame(['2D','AC','AS','AH','AC'], ['3D','6D','7D','TD','QD']), 'p1');
+    assert.equal(app.checkGame(['2D','AC','AS','AH','AC'], ['TC','JC','AC','QC','KC']), 'p2');
     // assert.equal(app.royalFlush(['JC','TC','QC','AC','KC']), true);
     // assert.equal(app.royalFlush(['TC','JC','QC','AC','KH']), false);
   });

@@ -65,7 +65,12 @@ const checkGame = (cards1, cards2) => {
     const p1 = hands.reduce((acc, hand, index) => (hand(cards1) && acc < 0) ? index : acc, -1);
     const p2 = hands.reduce((acc, hand, index) => (hand(cards2) && acc < 0) ? index : acc, -1);
 
-    return p1 < p2 ? 'p1' : 'p2';
+    const strategy = {
+        true: (p1, p2) => p1 < p2 ? 'p1' : 'p2',
+        false: (p1, p2) => 'sdas'
+    }
+
+    return strategy[p1 !== p2](p1, p2)
 }
 
 exports.sortHand = sortHand;
