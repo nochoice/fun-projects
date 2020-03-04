@@ -118,6 +118,3 @@ const sum = (data, strategy) => data.split('\n')
                             .map((x) => +x)
                             .reduce((acc, mass) => acc + strategy(mass), 0);
 
-
-console.log(sum(data, fuelRequirements));
-console.log(sum(data, fuelRequirementsWithFuel));

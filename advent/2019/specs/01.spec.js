@@ -9,7 +9,7 @@ describe('Fuel requirements', function() {
     assert.equal(app.fuelRequirements(100756), 33583);
   })
 
-  it.only('It should calculate fuel requirements with fuel', function() {
+  it('It should calculate fuel requirements with fuel', function() {
     assert.equal(app.fuelRequirementsWithFuel(1969), 966);
     assert.equal(app.fuelRequirementsWithFuel(100756), 50346);
   })
