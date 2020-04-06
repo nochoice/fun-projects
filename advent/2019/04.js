@@ -45,11 +45,7 @@ const hasNopartOfLargeAdj = (num) => {
 
         const maxAdNum = Math.max(...Object.keys(adj));
 
-        if (Object.keys(adj).length > 1) {
-            result = adj[maxAdNum] < 3;
-        } else {
-            result = true
-        }
+        return adj[maxAdNum] < 3;
 
         
     }
@@ -61,7 +57,7 @@ const hasNopartOfLargeAdj = (num) => {
 const numOfPass = (from, to, numSize) => {
     let count = 0;
     for (let i=from; i<=to; i++) {
-        if(isRightDigitLength(i, numSize) && hasNopartOfLargeAdj(i) && isIncreasing(i)) {
+        if(isRightDigitLength(i, numSize) && sameAdjNumbers(i) && hasNopartOfLargeAdj(i) && isIncreasing(i)) {
             count++;
         }
     }
@@ -71,9 +67,7 @@ const numOfPass = (from, to, numSize) => {
 
 const result = numOfPass(284639, 748759, 6);
 
-console.log('04-1', result)
-
-
+console.log('04-2', result)
 
 exports.isRightDigitLength = isRightDigitLength;
 exports.sameAdjNumbers = sameAdjNumbers;
