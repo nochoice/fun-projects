@@ -24,7 +24,7 @@ describe('Secure Container', function() {
     assert.equal(app.isIncreasing(223450), false);
   });
 
-  it.only('are not part of a larger group of matching digits', function() {
+  it('are not part of a larger group of matching digits', function() {
     assert.equal(app.hasNopartOfLargeAdj(123338), false);
     assert.equal(app.hasNopartOfLargeAdj(333389), false);
     assert.equal(app.hasNopartOfLargeAdj(333889), true);

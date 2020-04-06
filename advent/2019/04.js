@@ -67,7 +67,7 @@ const numOfPass = (from, to, numSize) => {
 
 const result = numOfPass(284639, 748759, 6);
 
-console.log('04-2', result)
+// console.log('04-2', result)
 
 exports.isRightDigitLength = isRightDigitLength;
 exports.sameAdjNumbers = sameAdjNumbers;

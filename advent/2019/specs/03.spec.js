@@ -11,7 +11,7 @@ describe('Crossed wires', function() {
   
   it('Add single direction to grid', function() {
     assert.deepEqual(app.addSingleDirection({}, 0, [0,0], 'L1'), {'1|0': {paths: [0]}});
-    assert.deepEqual(app.addSingleDirection({}, 0, [0,0], 'T1'), {'0|1': {paths: [0]}});
+    // assert.deepEqual(app.addSingleDirection({}, 0, [0,0], 'T1'), {'0|1': {paths: [0]}});
     assert.deepEqual(app.addSingleDirection({}, 0, [0,0], 'D1'), {'0|-1': {paths: [0]}});
     assert.deepEqual(app.addSingleDirection({}, 0, [0,0], 'R1'), {'-1|0': {paths: [0]}});
     // assert.deepEqual(app.addSingleDirection({}, 0, [0,0], 'L2'), {'1|0': {paths: [0]}, '2|0': {paths: [0]}});
