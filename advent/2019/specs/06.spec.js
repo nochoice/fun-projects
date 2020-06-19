@@ -37,7 +37,7 @@ describe('Universal Orbit Map', function() {
         });
   });
 
-  it.only('should count sum of direct and indirect orbits', function() {
+  it('should count sum of direct and indirect orbits', function() {
     assert.equal(app.countSumDirectIndirect(`COM)B
     B)C
     C)D
@@ -51,9 +51,20 @@ describe('Universal Orbit Map', function() {
     K)L`), 42);
   });
 
-
-  
-
- 
+  it.only('should count orbital transfers', function() {
+    assert.equal(app.countSumDirectIndirect(`COM)B
+    B)C
+    C)D
+    D)E
+    E)F
+    B)G
+    G)H
+    D)I
+    E)J
+    J)K
+    K)L
+    K)YOU
+    I)SAN`), 4);
+  });
 });
 
