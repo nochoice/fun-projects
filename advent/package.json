@@ -4,11 +4,13 @@
   "description": "It is good to have some refresher.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -w **/*spec.js"
+    "test-mocha": "mocha -w ./2019/**/*spec.js",
+    "test": "nodemon --exec jasmine"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jasmine": "^3.7.0",
     "mocha": "^5.2.0"
   }
 }
