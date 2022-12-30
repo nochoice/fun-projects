@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/nochoice/fun-projects#readme",
   "devDependencies": {
-    "mocha": "^7.0.0",
+    "mocha": "^10.2.0",
     "typescript": "^3.9.3"
   },
   "dependencies": {
